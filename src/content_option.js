@@ -144,7 +144,7 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "/portfolio/cyber-cubs/ann.PNG",
+        img: "/portfolio/cyber-cubs/ann.png",
         description: "An online demo explaining how artificial neural networks (ANNs) work for a kids summer STEM camp.",
         link: "/portfolio/cyber-cubs",
         name: "cyber-cubs",
@@ -198,7 +198,7 @@ const dataportfolio = [
         tags: ["Artificial Intelligence", "Web", "Generative AI", "Startup"]
     },
     {
-        img: "/portfolio/home-server/hyper-v-view.PNG",
+        img: "/portfolio/home-server/hyper-v-view.png",
         description: "Personal home server setup for hosting websites and services like this portfolio.",
         link: "/portfolio/home-server",
         name: "home-server",
