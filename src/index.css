@@ -5,7 +5,14 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+    --overlay-color: rgb(12 12 12 / 80%);
+    --card-bg-color: #f8f9fa;     /* light neutral */
+    --border-color: #ddd;
+}
+
+[data-theme='dark'] {
+  --card-bg-color: #1e1e1e;     /* dark neutral */
+  --border-color: #333;
 }
 
 [data-theme="light"] {
