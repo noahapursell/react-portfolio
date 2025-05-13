@@ -159,7 +159,7 @@ const dataportfolio = [
         name: "magnet-db",
         date: "Fall 2024",
         title: "Magnet DB",
-        tags: ["Research", "Web", "Data Science"]
+        tags: ["Research", "Web", "Data Science", "Published"]
     },
     {
         img: "/portfolio/email-study/timeseries-decomposition.png",
@@ -168,7 +168,7 @@ const dataportfolio = [
         name: "email-privacy-study",
         date: "Spring 2025",
         title: "Email Privacy Study",
-        tags: ["Research", "Artificial Intelligence", "Privacy"]
+        tags: ["Research", "Artificial Intelligence", "Privacy", "Published"]
     },
     {
         img: "/portfolio/on-demand-ai-art/upscale-sample.png",
@@ -235,12 +235,12 @@ const dataportfolio = [
     },
     {
         img: "/portfolio/lime-lend/demo-screenshot.png",
-        description: "Hacklahoma 2025 Ethereum project for lending, renting, and managing digital goods and licenses.",
+        description: "Ethereum project for lending, renting, and managing digital goods and licenses.",
         link: "/portfolio/limelend",
         name: "limelend",
         date: "Spring 2025",
         title: "LimeLend",
-        tags: ["Web3/Blockchain", "Web", "Award Winning"]
+        tags: ["Web3/Blockchain", "Web"]
     },
 ];
 
@@ -322,7 +322,7 @@ const projectDescriptions = {
         },
         {
             type: "text",
-            content: "I developed the entire pipeline, including multiple methods for prompt enhancement — such as LLM-only, RAG-based multishot, and RAG templating approaches — to assist users in generating high-quality prompts. I also implemented and evaluated a suite of AI upscalers (like ESRGAN and HAT-L) to meet commercial resolution demands. The framework was tested with Stable Diffusion XL and designed for future scalability and commercial integration."
+            content: "I developed the entire pipeline, including multiple methods for prompt enhancement — such as LLM-only, RAG-based multishot, and RAG templating approaches — to assist users in generating high-quality prompts. I also evaluated a suite of AI upscalers (like ESRGAN and HAT-L) to meet commercial resolution demands. The framework was tested with Stable Diffusion XL and designed for future scalability and commercial integration."
         },
         {
             type: "link",
@@ -344,7 +344,7 @@ const projectDescriptions = {
         },
         {
             type: "text",
-            content: "I led a team of four sophomores in the competition—where first and second place were graduate student teams. We used Python along with pandas, NumPy, data imputation techniques, scikit-learn, PyTorch, matplotlib, seaborn, and semopy. I coordinated the modeling strategy, contributed to defining phenology terms, and led the final modeling phase. Our best models achieved a 50% reduction in MAE compared to baselines, earning us third place."
+            content: "I led a team of four sophomores in the competition—where first and second place were graduate student teams. We used Python along with pandas, NumPy, scikit-learn, PyTorch, matplotlib, seaborn, and semopy. I coordinated the modeling strategy, contributed to defining phenology terms, and led the final modeling phase. Our best models achieved a 50% reduction in MAE compared to baselines, earning us third place."
         }
     ],
     "shuffle-ink": [
@@ -391,11 +391,11 @@ const projectDescriptions = {
         },
         {
             type: "text",
-            content: "SpongeBot is an AI-powered chatbot platform that lets users interact with animated versions of SpongeBob and Patrick through real-time, voice-driven conversations. The system combines large language models, voice conversion, and video synthesis in a Snapchat-style interface to create a novel AI experience."
+            content: "SpongeBot is an AI-powered chatbot platform that lets users interact with animated versions of SpongeBob and Patrick (via their Actor's) through real-time, voice-driven conversations. The system combines large language models, voice conversion, and video synthesis in a Snapchat-style interface to create a novel AI experience."
         },
         {
             type: "text",
-            content: "We built SpongeBot using a modular microservice architecture. I worked on integrating Whisper for speech-to-text, OpenAI GPT-4 for dialogue generation, Retrieval-Based Voice Conversion for character-specific speech, and SadTalker for video generation. These services were hosted locally and stitched together using Flask APIs and a Node.js frontend. I helped coordinate GPU load management and parallelized audio/video generation to maximize responsiveness."
+            content: "We built SpongeBot using a modular microservice architecture. I worked on integrating Whisper for speech-to-text, OpenAI GPT-4 for dialogue generation, Retrieval-Based Voice Conversion for character-specific speech, and SadTalker for video generation. These services were hosted locally and stitched together using Flask APIs and a React frontend. I also implemented GPU load management and parallelized audio/video generation to maximize responsiveness."
         },
         {
             type: "link",
@@ -418,7 +418,7 @@ const projectDescriptions = {
         },
         {
             type: "text",
-            content: "Back to the Books is a full-stack AI-powered web app that enhances student learning by connecting to their Canvas LMS data and generating personalized study aids. It creates active-recall-based flashcards and hosts a tutor chatbot that responds based on real class materials."
+            content: "Back to the Books is a full-stack AI-powered web app that enhances student learning by connecting to their Canvas Learning Management System (LMS) data and generating personalized study aids. It creates active-recall-based flashcards and hosts a tutor chatbot that responds based on real class materials."
         },
         {
             type: "text",
