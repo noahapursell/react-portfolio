@@ -37,3 +37,4 @@ jobs:
         env:
           AWS_S3_BUCKET: noah-pursell-personal-website
           SOURCE_DIR: 'build'
+          AWS_REGION: 'us-east-1'
