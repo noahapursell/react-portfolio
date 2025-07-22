@@ -2,8 +2,6 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaTwitter,
-  FaFacebookF,
   FaLinkedin,
   FaYoutube,
   FaTwitch,
@@ -16,13 +14,11 @@ import { socialprofils } from "../../content_option";
 
 const ICON_MAPPING = {
   default: FaCircle,
-  facebook: FaFacebookF,
   github: FaGithub,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
   snapchat: FaSnapchatGhost,
   tiktok: FaTiktok,
-  twitter: FaTwitter,
   twitch: FaTwitch,
   youtube: FaYoutube
 };

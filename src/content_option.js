@@ -265,7 +265,7 @@ const projectDescriptions = {
         },
         {
             type: "text",
-            content: "This site is a demonstration of how neural networks work to help teach middle-schoolers about AI at a summer STEM camp. The demo has two pages. The first shows some randomly generated data along with an un-trained linear regression line. Students are able to adjust the model's parameters to see how a computer can 'learn' information. The second page shows a more complex non-linear dataest. Students are able to see how a computer can adjust the parameters itself to learn the data."
+            content: "This site is a demonstration of how neural networks work to help teach middle-schoolers about AI at a summer STEM camp. The demo has two pages. The first shows some randomly generated data along with an un-trained linear regression line. Students are able to adjust the model's parameters to see how a computer can 'learn' information. The second page shows a more complex non-linear dataset. Students are able to see how a computer can adjust the parameters itself to learn the data."
         },
         {
             type: "link",
@@ -291,8 +291,13 @@ const projectDescriptions = {
         },
         {
             type: "link",
-            link: "https://arxiv.org/abs/2501.09275",
-            description: "Read the full paper on arXiv"
+            link: "https://magnetdb.secretlab.page/",
+            description: "Visit the MagnetDB website"
+        },
+        {
+            type: "link",
+            link: "https://ojs.aaai.org/index.php/ICWSM/article/view/35959",
+            description: "Read the full paper (AAAI ICWSM)"
         }
     ],
     "email-privacy-study": [
@@ -313,8 +318,8 @@ const projectDescriptions = {
         },
         {
             type: "link",
-            link: "https://arxiv.org/abs/2410.08302",
-            description: "Read the full paper on arXiv"
+            link: "https://dl.acm.org/doi/10.1145/3714393.3726516",
+            description: "Read the full paper (ACM Digital Library)"
         }
     ],
     "on-demand-ai-art": [
@@ -559,9 +564,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/noahapursell",
-    // facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/noah-pursell/",
-    // twitter: "https://twitter.com",
 };
 export {
     meta,
