@@ -242,6 +242,15 @@ const dataportfolio = [
         title: "LimeLend",
         tags: ["Web3/Blockchain", "Web"]
     },
+    {
+        img: "/portfolio/portfolio/aws_s3.png",
+        description: "React portfolio website hosted on AWS S3 with CloudFront CDN and automated CI/CD pipeline using GitHub Actions.",
+        link: "/portfolio/portfolio-website",
+        name: "portfolio-website",
+        date: "Spring 2025",
+        title: "Portfolio Website",
+        tags: ["Web", "AWS", "DevOps", "CI/CD", "React"]
+    },
 ];
 
 
@@ -506,6 +515,32 @@ const projectDescriptions = {
             type: "link",
             link: "/portfolio/lime-lend/LimeLendReport.pdf",
             description: "Download full project report here"
+        }
+    ],
+    "portfolio-website": [
+        {
+            type: "heading",
+            content: "Portfolio Website: AWS-Hosted React Application with CI/CD"
+        },
+        {
+            type: "summary"
+        },
+        {
+            type: "text",
+            content: "This portfolio website is built with React and showcases my projects, experience, and skills. It demonstrates modern web development practices combined with cloud infrastructure and automated deployment pipelines."
+        },
+        {
+            type: "text",
+            content: "The site is hosted on AWS S3 as a static website with CloudFront CDN for global content delivery and improved performance. I implemented a complete CI/CD pipeline using GitHub Actions that automatically builds and deploys the site whenever changes are pushed to the repository. The pipeline uses OpenID Connect (OIDC) to securely authenticate with AWS, eliminating the need for long-lived access keys and following security best practices."
+        },
+        {
+            type: "image",
+            link: "/portfolio/portfolio/cicd.png",
+            description: "CI/CD Pipeline Architecture"
+        },
+        {
+            type: "text",
+            content: "The architecture includes S3 for static hosting, CloudFront for caching and SSL termination, and GitHub Actions for continuous integration and deployment. This setup provides a scalable, secure, and cost-effective solution for hosting modern web applications."
         }
     ]
 };
