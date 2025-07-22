@@ -31,10 +31,4 @@ jobs:
           aws-region: us-east-1
           role-to-assume: arn:aws:iam::351609396646:role/github-actions-access-portfolio-s3
       - name: S3 Sync
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --delete
-        env:
-          AWS_S3_BUCKET: noah-pursell-personal-website
-          SOURCE_DIR: 'build'
-          AWS_REGION: 'us-east-1'
+        run: aws s3 sync build/ s3://noah-pursell-personal-website --delete --acl public-read
