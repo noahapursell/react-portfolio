@@ -23,29 +23,29 @@ const dataabout = {
 
 const worktimeline = [
     {
-        jobtitle: "President",
-        where: "OU AI/ML Club",
-        date: "May 2025 – Present",
+        jobtitle: "Application Development Intern",
+        where: "ConocoPhillips",
+        date: "May 2025 – July 2025",
     },
     {
-        jobtitle: "Product Development Associate",
+        jobtitle: "President",
+        where: "OU AI/ML Club",
+        date: "Spring 2025 – Present",
+    },
+    {
+        jobtitle: "Software Developer",
         where: "Inventory Ally",
         date: "Aug 2024 – Present",
     },
     {
-        jobtitle: "IT Audit Intern",
+        jobtitle: "IT-Audit Intern",
         where: "ConocoPhillips",
-        date: "May 2024 – Aug 2024",
+        date: "Summer 2024",
     },
     {
-        jobtitle: "Student Software Researcher",
-        where: "OU Advanced Radar Research Center (ARRC)",
-        date: "Jan 2024 – Present",
-    },
-    {
-        jobtitle: "Full-Stack Developer",
-        where: "Shuffle.Ink",
-        date: "Nov 2023 – Present",
+        jobtitle: "AGRI AI Contestant",
+        where: "Agricultural AI",
+        date: "Spring 2024",
     },
     {
         jobtitle: "Student Programmer",
@@ -54,8 +54,8 @@ const worktimeline = [
     },
     {
         jobtitle: "Undergraduate Research Assistant",
-        where: "OU Gallogly College of Engineering / SecretLab",
-        date: "Jan 2023 – Present",
+        where: "OU Gallogly College of Engineering",
+        date: "Jan 2023 – May 2023",
     },
 ];
 

@@ -35,6 +35,24 @@ export const About = () => {
             </div>
           </Col>
         </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Resume</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <a
+                href="/resume.pdf"
+                download="Noah_Pursell_Resume.pdf"
+                className="ac_btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Resume (PDF)
+              </a>
+            </div>
+          </Col>
+        </Row>
         <Row className=" sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
