@@ -31,4 +31,8 @@ jobs:
           aws-region: us-east-1
           role-to-assume: arn:aws:iam::351609396646:role/github-actions-access-portfolio-s3
       - name: S3 Sync
-        run: aws s3 sync build/ s3://noah-pursell-personal-website --delete
+        run: aws s3 sync build/ s3://noah-pursell-personal-website --delete --exact-timestamps
+
+      - name: CloudFront Cache Invalidation
+        run: aws cloudfront create-invalidation --distribution-id EV3UPY5AB20K3 --paths "/index.html" "/"
+
