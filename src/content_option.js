@@ -150,7 +150,8 @@ const dataportfolio = [
         name: "cyber-cubs",
         date: "Summer 2025",
         title: "Cyber Cubs",
-        tags: ["Artificial Intelligence", "Web", "Education"]
+        tags: ["Artificial Intelligence", "Web", "Education"],
+        priority: 3
     },
     {
         img: "/portfolio/magnet-db/titles-by-network.png",
@@ -159,7 +160,8 @@ const dataportfolio = [
         name: "magnet-db",
         date: "Fall 2024",
         title: "Magnet DB",
-        tags: ["Research", "Web", "Data Science", "Published"]
+        tags: ["Research", "Web", "Data Science", "Published"],
+        priority: 2
     },
     {
         img: "/portfolio/email-study/timeseries-decomposition.png",
@@ -168,7 +170,8 @@ const dataportfolio = [
         name: "email-privacy-study",
         date: "Spring 2025",
         title: "Email Privacy Study",
-        tags: ["Research", "Artificial Intelligence", "Privacy", "Published"]
+        tags: ["Research", "Artificial Intelligence", "Privacy", "Published"],
+        priority: 7
     },
     {
         img: "/portfolio/on-demand-ai-art/upscale-sample.png",
@@ -177,7 +180,8 @@ const dataportfolio = [
         name: "on-demand-ai-art",
         date: "Fall 2023",
         title: "On-Demand AI Art",
-        tags: ["Artificial Intelligence", "Web", "Generative AI", "Research"]
+        tags: ["Artificial Intelligence", "Web", "Generative AI", "Research"],
+        priority: 8
     },
     {
         img: "/portfolio/agri-ai/predictive-modeling.png",
@@ -186,7 +190,8 @@ const dataportfolio = [
         name: "agri-ai",
         date: "Spring 2024",
         title: "AGRI AI",
-        tags: ["Artificial Intelligence", "Research", "Award Winning", "Data Science"]
+        tags: ["Artificial Intelligence", "Research", "Award Winning", "Data Science"],
+        priority: 9
     },
     {
         img: "/portfolio/shuffle-ink/home-page.png",
@@ -195,7 +200,8 @@ const dataportfolio = [
         name: "shuffle-ink",
         date: "Spring 2024 - Present",
         title: "Shuffle.Ink",
-        tags: ["Artificial Intelligence", "Web", "Generative AI", "Startup"]
+        tags: ["Artificial Intelligence", "Web", "Generative AI", "Startup"],
+        priority: 10
     },
     {
         img: "/portfolio/home-server/hyper-v-view.png",
@@ -204,7 +210,8 @@ const dataportfolio = [
         name: "home-server",
         date: "Spring 2025",
         title: "Home Server",
-        tags: ["Hardware", "DevOps", "Self-Hosting", "Infrastructure"]
+        tags: ["Hardware", "DevOps", "Self-Hosting", "Infrastructure"],
+        priority: 4
     },
     {
         img: "/portfolio/sponge-bot/web-page.png",
@@ -213,7 +220,8 @@ const dataportfolio = [
         name: "spongebot",
         date: "Spring 2024",
         title: "SpongeBot",
-        tags: ["Artificial Intelligence", "Web", "Voice & Video", "Conversational AI"]
+        tags: ["Artificial Intelligence", "Web", "Voice & Video", "Conversational AI"],
+        priority: 11
     },
     {
         img: "/portfolio/back-to-the-books/main-page.png",
@@ -222,7 +230,8 @@ const dataportfolio = [
         name: "back-to-the-books",
         date: "Spring 2024",
         title: "Back to the Books",
-        tags: ["Artificial Intelligence", "Web", "Award Winning", "Education"]
+        tags: ["Artificial Intelligence", "Web", "Award Winning", "Education"],
+        priority: 12
     },
     {
         img: "/portfolio/daiid/main-page.png",
@@ -231,7 +240,8 @@ const dataportfolio = [
         name: "daiid",
         date: "Spring 2025",
         title: "DAIID",
-        tags: ["Artificial Intelligence", "Web3/Blockchain", "Award Winning"]
+        tags: ["Artificial Intelligence", "Web3/Blockchain", "Award Winning"],
+        priority: 5
     },
     {
         img: "/portfolio/lime-lend/demo-screenshot.png",
@@ -240,7 +250,8 @@ const dataportfolio = [
         name: "limelend",
         date: "Spring 2025",
         title: "LimeLend",
-        tags: ["Web3/Blockchain", "Web"]
+        tags: ["Web3/Blockchain", "Web"],
+        priority: 6
     },
     {
         img: "/portfolio/portfolio/aws_s3.png",
@@ -249,7 +260,8 @@ const dataportfolio = [
         name: "portfolio-website",
         date: "Spring 2025",
         title: "Portfolio Website",
-        tags: ["Web", "AWS", "DevOps", "CI/CD", "React"]
+        tags: ["Web", "AWS", "DevOps", "CI/CD", "React"],
+        priority: 1
     },
 ];
 

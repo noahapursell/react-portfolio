@@ -21,10 +21,10 @@ export const Portfolio = () => {
 
   const filteredProjects =
     selectedTags.length === 0
-      ? dataportfolio
+      ? [...dataportfolio].sort((a, b) => (a.priority || 999) - (b.priority || 999))
       : dataportfolio.filter((p) =>
         selectedTags.every((tag) => p.tags?.includes(tag))
-      );
+      ).sort((a, b) => (a.priority || 999) - (b.priority || 999));
 
   return (
     <HelmetProvider>
