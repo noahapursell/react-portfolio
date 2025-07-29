@@ -63,67 +63,33 @@ const worktimeline = [
 
 
 const skills = [
-    // AI / ML Skills
     {
-        name: "Python",
-        value: 95,
+        category: "Programming Languages",
+        items: "Java, C++, Python, C#, MATLAB, Swift, Visual Basic"
     },
     {
-        name: "PyTorch",
-        value: 80,
+        category: "Specialties",
+        items: "Data Analytics and Machine Learning (Pandas, NumPy, Scikit-Learn, PyTorch, Tensorflow/Keras, LLMs, RAG, LangGraph/LangChain), Web Development (.NET, Blazor, React, NodeJS, Flask, FastAPI), Ethereum (Solidity Smart Contracts)"
     },
     {
-        name: "Scikit-Learn",
-        value: 75,
+        category: "Software",
+        items: "Microsoft Office, Google Workspace, Azure, AWS, Mendix"
     },
     {
-        name: "LLMs & RAG",
-        value: 90,
+        category: "DevOps",
+        items: "Docker, Git + Github, Git Actions, Git Webhooks, CI/CD Pipelines, Automated Testing"
     },
     {
-        name: "TensorFlow/Keras",
-        value: 70,
-    },
+        category: "Soft Skills",
+        items: "Leadership, Teamwork, Time Management, Strong Work Ethic"
+    }
+];
 
-    // Backend & Database
-    {
-        name: "Node.js & Express",
-        value: 85,
-    },
-    {
-        name: "MySQL",
-        value: 75,
-    },
-    {
-        name: "Solidity",
-        value: 70,
-    },
-
-    // Cloud & DevOps
-    {
-        name: "Azure Cloud",
-        value: 85,
-    },
-    {
-        name: "Docker",
-        value: 90,
-    },
-
-    // Frontend
-    {
-        name: "JavaScript",
-        value: 85,
-    },
-    {
-        name: "React",
-        value: 75,
-    },
-
-    // Automation / Productivity Tools
-    {
-        name: "Power Platform (Automate & Apps)",
-        value: 80,
-    },
+const awards = [
+    "Microsoft Azure Fundamentals Cert, Microsoft Azure AI Fundamentals Cert",
+    "2025 Hacklahoma Built on Ethereum Award, 2024 Hacklahoma 2nd Place, 2023 Hacklahoma 2nd Place",
+    "2024 OU AI Symposium 1st Place, 2023 OU AI Symposium 1st Place",
+    "Dean's Honor Roll (2023, 2024, Spring 2025), Mendix Rapid Developer Cert"
 ];
 
 
@@ -584,6 +550,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
+    awards,
     services,
     introdata,
     contactConfig,
