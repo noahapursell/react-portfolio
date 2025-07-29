@@ -34,5 +34,5 @@ jobs:
         run: aws s3 sync build/ s3://noah-pursell-personal-website --delete --exact-timestamps
 
       - name: CloudFront Cache Invalidation
-        run: aws cloudfront create-invalidation --distribution-id EV3UPY5AB20K3 --paths "/index.html" "/"
+        run: aws cloudfront create-invalidation --distribution-id EV3UPY5AB20K3 --paths "/*"
 
